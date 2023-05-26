@@ -8,4 +8,4 @@ WORKDIR /app
 COPY Max-Doctor-PatientApp-0.0.1-SNAPSHOT.jar /app/
 EXPOSE 8080
 
-CMD ["java", "-jar", "max.jar"]
+CMD ["java", "-jar", "Max-Doctor-PatientApp-0.0.1-SNAPSHOT.jar"]
