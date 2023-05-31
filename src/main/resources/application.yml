@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: Welcome!01
-    url: jdbc:mysql://online-hosp-mngmt.mysql.database.azure.com:3306/online-hosp-mngmt
-    username: admin_hosp_mgnmt
+    password: admin123
+    url: my-database.cg96tmicsj1k.us-east-1.rds.amazonaws.com
+    username: admin
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
