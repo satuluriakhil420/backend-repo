@@ -29,4 +29,4 @@ jwt:
   secret: screatKey123
 #  for frontend domain
 domain:
-  name: http://localhost:3000/
+  name: http://lb-1-2002984447.us-east-1.elb.amazonaws.com/
