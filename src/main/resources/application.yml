@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: admin123
-    url: my-database.cg96tmicsj1k.us-east-1.rds.amazonaws.com
+    url: jdbc:mysql://my-database.cg96tmicsj1k.us-east-1.rds.amazonaws.com
     username: admin
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
