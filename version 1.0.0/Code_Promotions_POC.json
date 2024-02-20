@@ -1,0 +1,32 @@
+{
+  "name" : "Code_Promotions_POC",
+  "jobMode" : "SCRIPT",
+  "description" : "",
+  "role" : "arn:aws:iam::851725552113:role/aws_glue_role",
+  "executionProperty" : {
+    "maxConcurrentRuns" : 1
+  },
+  "command" : {
+    "name" : "glueetl",
+    "scriptLocation" : "s3://aws-glue-assets-851725552113-us-east-1/Code_Promotions_POC/dev/Code_Promotions_POC.py",
+    "pythonVersion" : "3"
+  },
+  "defaultArguments" : {
+    "--enable-job-insights" : "true",
+    "--job-language" : "python"
+  },
+  "maxRetries" : 0,
+  "allocatedCapacity" : 10,
+  "timeout" : 2880,
+  "maxCapacity" : 10.0,
+  "glueVersion" : "4.0",
+  "numberOfWorkers" : 10,
+  "workerType" : "G.1X",
+  "executionClass" : "STANDARD",
+  "sourceControlDetails" : {
+    "provider" : "GITHUB",
+    "repository" : "backend-repo",
+    "branch" : "main",
+    "folder" : "version 1.0.0"
+  }
+}
